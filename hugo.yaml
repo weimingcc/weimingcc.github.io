@@ -77,10 +77,10 @@ params:
       - name: 标签
         url: tags
 
-  # homeInfoParams:
-  #   Title: "为什么？怎么办"
-  #   Content: >
-  #     👋 不满足，是向上的齿轮。
+  homeInfoParams:
+    Title: ""
+    Content: >
+      ![](./images/two-swallows.jpg)
   # socialIcons:
   #   - name: github
   #     title: View Source on Github
@@ -103,6 +103,8 @@ params:
 
   assets:
     disableHLJS: true
+    favicon: "/assets/favicon.ico"
+    favicon32x32: "/assets/favicon-32x32.png"
   #     favicon: "<link / abs url>"
   #     favicon16x16: "<link / abs url>"
   #     favicon32x32: "<link / abs url>"
